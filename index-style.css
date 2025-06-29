@@ -1,0 +1,61 @@
+/* Global reset & base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #d1c4e9, #9575cd);
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.15); /* glass effect */
+  padding: 40px 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+h1 span {
+  color: #000000;
+}
+
+p {
+  margin-bottom: 25px;
+  font-size: 1.1em;
+}
+
+.button {
+  display: inline-block;
+  background-color: #5e35b1;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  background-color: #4527a0;
+}
+
+.signup {
+  font-size: 0.95em;
+}
+
+.signup a {
+  color: #fff;
+  text-decoration: underline;
+}
