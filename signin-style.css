@@ -56,4 +56,7 @@ button:hover {
   font-size: 0.95em;
 }
 
-.signup a, .home
+.signup a, .home{
+    color: #fff;
+  text-decoration: underline;
+}
