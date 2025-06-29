@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Sign In</h1>
-    <form onsubmit="return fakeLogin()">
+    <form id="signinForm">
       <input type="email" name="email" placeholder="Email" required>
       <input type="password" name="password" placeholder="Password" required>
       <button type="submit">Sign In</button>
@@ -19,13 +19,13 @@
   </div>
 
   <script>
-    function fakeLogin() {
-      // Redirect to home.html
-      window.location.href = "home.html";
-      return false; // prevent form from submitting
-    }
+    document.getElementById('signinForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // prevent the default form submit
+      window.location.href = "home.html"; // redirect
+    });
   </script>
 </body>
 </html>
+
 
 
