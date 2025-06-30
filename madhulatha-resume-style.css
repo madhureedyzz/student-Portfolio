@@ -44,8 +44,8 @@
   color: #333;
 }
 .resume-header img {
-  width: 150px;         /* you can adjust size here, e.g., 120px or 100px */
-  height: 150px;
+  width: 100px;         /* you can adjust size here, e.g., 120px or 100px */
+  height: 100px;
   object-fit: cover;    /* keeps the image aspect nicely cropped */
   border-radius: 50%;   /* makes it round */
   margin-bottom: 10px;
