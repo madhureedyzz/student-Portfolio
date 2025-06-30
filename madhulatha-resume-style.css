@@ -19,6 +19,16 @@
   margin: 5px 0 10px;
   color: #555;
 }
+.resume-header img {
+  width: 120px !important;       /* force the width */
+  height: 120px !important;      /* force the height */
+  border-radius: 50% !important; /* make it round */
+  object-fit: cover !important;  /* keep proportions, no stretch */
+  display: block;
+  margin: 0 auto 10px auto;      /* center it and add bottom margin */
+  border: 2px solid #5e35b1;     /* optional border for nice circle */
+}
+
 
 .resume section {
   background: #fff;
@@ -43,12 +53,5 @@
   margin-bottom: 5px;
   color: #333;
 }
-.resume-header img {
-  width: 100px;         /* you can adjust size here, e.g., 120px or 100px */
-  height: 100px;
-  object-fit: cover;    /* keeps the image aspect nicely cropped */
-  border-radius: 50%;   /* makes it round */
-  margin-bottom: 10px;
-  border: 3px solid #5e35b1;  /* optional: adds a colored border */
-}
+
 
