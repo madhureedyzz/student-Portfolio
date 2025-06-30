@@ -5,11 +5,6 @@
   padding: 0 20px;
 }
 
-.resume-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
 .resume-header h2 {
   margin: 5px 0;
   color: #5e35b1;
@@ -19,15 +14,22 @@
   margin: 5px 0 10px;
   color: #555;
 }
-.resume-header img {
-  width: 120px !important;       /* force the width */
-  height: 120px !important;      /* force the height */
-  border-radius: 50% !important; /* make it round */
-  object-fit: cover !important;  /* keep proportions, no stretch */
-  display: block;
-  margin: 0 auto 10px auto;      /* center it and add bottom margin */
-  border: 2px solid #5e35b1;     /* optional border for nice circle */
+.resume-header {
+  text-align: center;
+  margin-top: 30px;
 }
+
+.resume-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #5e35b1; /* nice border */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* optional shadow */
+}
+
 
 
 .resume section {
