@@ -78,5 +78,19 @@ p {
   text-decoration: underline;
 }
 
+.resume-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6a0dad; /* purple shade */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #4b078a; /* darker on hover */
+}
 
 
